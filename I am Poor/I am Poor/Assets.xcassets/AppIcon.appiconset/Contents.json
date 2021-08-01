@@ -46,6 +46,7 @@
       "size" : "57x57"
     },
     {
+      "filename" : "114.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "57x57"
@@ -132,12 +133,6 @@
     },
     {
       "filename" : "100.png",
-      "idiom" : "universal",
-      "scale" : "1x",
-      "unassigned" : true
-    },
-    {
-      "filename" : "114.png",
       "idiom" : "universal",
       "scale" : "1x",
       "unassigned" : true
