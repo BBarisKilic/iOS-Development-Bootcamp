@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09E9D0F526B9CC5F005B199C /* Magic Ball 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Ball 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E9D0F526B9CC5F005B199C /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E9D0F826B9CC5F005B199C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E9D0FA26B9CC5F005B199C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		09E9D0FC26B9CC5F005B199C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		09E9D0F626B9CC5F005B199C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09E9D0F526B9CC5F005B199C /* Magic Ball 8.app */,
+				09E9D0F526B9CC5F005B199C /* Magic 8 Ball.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09E9D0F426B9CC5F005B199C /* Magic Ball 8 */ = {
+		09E9D0F426B9CC5F005B199C /* Magic 8 Ball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09E9D10926B9CC5F005B199C /* Build configuration list for PBXNativeTarget "Magic Ball 8" */;
+			buildConfigurationList = 09E9D10926B9CC5F005B199C /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */;
 			buildPhases = (
 				09E9D0F126B9CC5F005B199C /* Sources */,
 				09E9D0F226B9CC5F005B199C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Magic Ball 8";
+			name = "Magic 8 Ball";
 			productName = "Magic Ball 8";
-			productReference = 09E9D0F526B9CC5F005B199C /* Magic Ball 8.app */;
+			productReference = 09E9D0F526B9CC5F005B199C /* Magic 8 Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09E9D0F026B9CC5F005B199C /* Build configuration list for PBXProject "Magic Ball 8" */;
+			buildConfigurationList = 09E9D0F026B9CC5F005B199C /* Build configuration list for PBXProject "Magic 8 Ball" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09E9D0F426B9CC5F005B199C /* Magic Ball 8 */,
+				09E9D0F426B9CC5F005B199C /* Magic 8 Ball */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bbkdevelopment.Magic-Ball-8";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbkdevelopment.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bbkdevelopment.Magic-Ball-8";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbkdevelopment.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09E9D0F026B9CC5F005B199C /* Build configuration list for PBXProject "Magic Ball 8" */ = {
+		09E9D0F026B9CC5F005B199C /* Build configuration list for PBXProject "Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E9D10726B9CC5F005B199C /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09E9D10926B9CC5F005B199C /* Build configuration list for PBXNativeTarget "Magic Ball 8" */ = {
+		09E9D10926B9CC5F005B199C /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E9D10A26B9CC5F005B199C /* Debug */,
