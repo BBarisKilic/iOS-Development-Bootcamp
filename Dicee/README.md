@@ -17,4 +17,4 @@ A dice app that can make the die roll at the press of a button or by shaking you
 
 Screenshot of the app:
 
-<p align="center"><img src="images/i_am_poor_1.png" width="300"></p>
+<p align="center"><img src="images/dicee.png" width="300"></p>
