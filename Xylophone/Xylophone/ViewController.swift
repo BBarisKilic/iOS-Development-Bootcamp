@@ -11,11 +11,35 @@ class ViewController: UIViewController {
     }
 
     @IBAction func cKeyPressed(_ sender: UIButton) {
-        playSound()
+        sender.alpha = 0.5
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1
+        }
+        
+        switch sender.currentTitle {
+        case "C":
+            playSound(sound: "C")
+        case "D":
+            playSound(sound: "D")
+        case "E":
+            playSound(sound: "E")
+        case "F":
+            playSound(sound: "F")
+        case "G":
+            playSound(sound: "G")
+        case "A":
+            playSound(sound: "A")
+        case "B":
+            playSound(sound: "B")
+        default:
+            break
+        }
+        
     }
     
-    func playSound() {
-        guard let url = Bundle.main.url(forResource: "C", withExtension: "wav") else { return }
+    func playSound(sound: String) {
+        guard let url = Bundle.main.url(forResource: sound, withExtension: "wav") else { return }
 
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
