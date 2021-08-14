@@ -12,8 +12,8 @@ struct Question {
     var text: String
     var answer: String
     
-    init(text: String, answer: String) {
-        self.text = text
-        self.answer = answer
+    init(q: String, a: String) {
+        self.text = q
+        self.answer = a
     }
 }
