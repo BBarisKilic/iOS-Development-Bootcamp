@@ -1,11 +1,19 @@
 
-import Foundation
+import UIKit
 
 class CalculatorBrain {
     var bmi: BMI?
     
-    func getBMIValue() -> String {
+    func getBMIValue() -> String? {
         return String(format: "%.1f", bmi?.value ?? 0.0)
+    }
+    
+    func getBMIAdvice() -> String? {
+        return bmi?.advice
+    }
+    
+    func getBMIColor() -> UIColor? {
+        return bmi?.color
     }
     
     func calculateBMI(height: Float, weight: Float) {
