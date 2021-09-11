@@ -11,4 +11,4 @@ A Body Mass Index Calculator app. Based on the user’s weight and height it wil
 
 Screenshot of the app:
 
-<p align="center"><img src="images/quizzler.png" width="300"></p>
+<p align="center"><img src="images/bmi_calculator_1.png" width="300">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/bmi_calculator_2.png" width="300"></p>
