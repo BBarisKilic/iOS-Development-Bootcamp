@@ -9,24 +9,16 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
+    @IBOutlet weak var totalPerPersonText: UILabel!
+    @IBOutlet weak var explanationText: UILabel!
     
     var bill: Bill!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        totalPerPersonText.text = String(format: "%.2f", bill.totalPerPerson)
+        explanationText.text = "Split between \(bill.totalPerson.description) people, with \(String(format: "%.f", bill.tipPercentage * 100))% tip."
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
