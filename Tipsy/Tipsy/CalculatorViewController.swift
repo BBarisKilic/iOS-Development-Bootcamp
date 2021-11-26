@@ -18,6 +18,8 @@ class CalculatorViewController: UIViewController {
     var tipPercentage: Double = 0.0
 
     @IBAction func tipChanged(_ sender: UIButton) {
+        billTextField.endEditing(true)
+        
         switch sender.currentTitle! {
         case "20%":
             tipPercentage = 0.2
@@ -45,8 +47,13 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(tipPercentage)
-        print(splitNumberLabel.text!)
+        let bill: Double = Double(billTextField.text!) ?? 0.0
+        let split: Int = Int(splitNumberLabel.text!) ?? 2
+        let tip: Double = bill * tipPercentage
+        let total: Double = bill + tip
+        let perPerson: Double = total / Double(split)
+        
+        print(perPerson)
     }
     
 }
